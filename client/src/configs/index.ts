@@ -1,0 +1,14 @@
+import packageJson from '../../package.json';
+export const API_BASE_URL = import.meta.env.VITE_BASE_URL;
+export const API_LOCAL = 'http://localhost:8008/api';
+export const API_PREFIX = 'admin';
+export const APP_PREFIX_PATH = '/admin';
+export const AUTH_PATH = '/login';
+export const VERSION = packageJson.version;
+export const SITE_NAME = 'GoStream';
+export const PAGE_SIZE = 10;
+export const PAGE_LIMIT = [10, 25, 50, 100];
+export const WIDTH_VNC_PERCENT = 90;
+export const RECAPTCHA_SITEKEY = '6LfXwswlAAAAAHY7WVIxCdc3BwfDBZ0DzHwgcb0p';
+export const RECAPTCHA_SECRETKEY = '6LfXwswlAAAAACYLALwgQJxDYH-NmVk41VZonS7v';
+export const API_KEY = 'oyhYARV6fHg9DGdCeQHtB24MJY9xcYYZ';
